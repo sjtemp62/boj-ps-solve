@@ -11,7 +11,7 @@ for i in card_list:
     else:
         dic[i] = 1
 
-for i in having_card_list:
+for i in having_card_list: # 학습 필요 - dict는 해시테이블로 O(1)
     if i in dic:
         print(dic[i], end=" ")
     else:
